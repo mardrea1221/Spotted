@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%22);
+
+body{
+    background-image:linear-gradient(#76CFEB, #F1EEAB) ;
+}
+.container{
+    margin: 60px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#cow_el{
+    width: 500px;
+    height: 350px;
+    margin-left: -100px;
+    margin-top:25px;
+}
+
+.vl {
+    border-left: 6px solid white;
+    height: 168px;
+    margin-left: -300px;
+    margin-top: 130px;
+}
+
+.title{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 80px;
+    font-style: bold;
+    margin-left: -150px;
+}
+
+.desc{
+    color: white;
+    display: flex;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: -45px;
+}
+
+a{
+    text-decoration: none;
+}
+#prototype{
+    display: flex;
+    justify-content: center;
+}
+#pd_box{
+    width: 680px;
+    height: 70px;
+    margin: 35px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#pd{
+    color: purple;
+    font-family: 'Montserrat';
+    font-weight: 650;
+    font-size: 35px;
+    font-style: bold;
+    padding-top: 10px;
+    
+}
+
+.all_spots{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    position:relative;
+    width: 350px;
+    height: 500px;
+    margin: 35px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+#box1{
+    background-image: url("https://localwiki.org/davis/shields%20library/_files/shieldsoutside_evening.JPG");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 46%;  
+}  
+
+#box2{
+    background-image: url("https://global-uploads.webflow.com/5eec789d24d891b6d1d15438/5f2354ab08019f646649b538_Memorial-Union-Davis-California-1.png");
+    background-repeat: no-repeat;
+    background-position-x: 54%;
+    background-position-y: 0%;  
+}
+
+#box3{
+    background-image: url("srrc_img.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 68%;
+    background-position-y: 43%; 
+
+}
+
+
+
+

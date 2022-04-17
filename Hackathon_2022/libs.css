@@ -1,0 +1,5 @@
+
+.floor_buttons{
+    display: flex;
+    flex-direction: column;
+}
